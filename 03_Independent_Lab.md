@@ -51,7 +51,7 @@ What would you like to purchase?
 How many would you like to purchase?
 3
 
-You want 3 of Single Day Ticket - Specific Date.
+You want 3 of Single Day Ticket - Weekday.
 
 The current total for your order is $150.00
 ```
@@ -59,7 +59,7 @@ The current total for your order is $150.00
 Continuation of kiosk order. Customer selects additional prodcuts:
 
 ```
-You want 3 of Single Day Ticket - Specific Date.
+You want 3 of Single Day Ticket - Weekday.
 
 The current total for your order is $150.00
 
