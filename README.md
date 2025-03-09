@@ -1,6 +1,6 @@
 # Week 3 Labs
 
-This repo contains instruction and files for Week 2 assignments. 
+This repo contains instruction and files for Week 3 assignments. 
 
 To begin, you should:
 
@@ -45,3 +45,6 @@ The tutorial is provided as a Python notebook (.ipynb). Feel free to generate th
 6. Double check that output for your code cells is saved in your notebook
 7. Push your notebook to GitHub
 8. In Canvas, submit the GitHub URL for your lab on the assignment page
+
+
+Happy coding!
