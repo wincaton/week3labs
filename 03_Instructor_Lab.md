@@ -26,13 +26,13 @@ Now that your program is able to generate values for Kelvin, you will further ex
 
 ### Second Set of Variables 
 
-You will need to create three new variables: `celsius_two`, `fahrenheit_two`, and `kelvin_two`. You will prompt the user for input (i.e., celsius) like you did above and convert it into Fahrenheit and Kelvin. On the command line, output the new values, similar to what you did previously, only with a slight modification like so: 
+You will need to create three new variables: `celsius_two`, `fahrenheit_two`, and `kelvin_two`. You will prompt the user for input (i.e., celsius) like you did above and convert it into Fahrenheit and Kelvin. In a code cell, output the new values, similar to what you did previously, only with a slight modification like so: 
 
 > Second set of values: *c* degrees Celsius is *f* degrees Fahrenheit which is *k* degrees Kelvin.
 
 ### Comparison of Variables
 
-You will compare the values generated for each of the temperature scales using the operators in the table below to the original set of scales. Thus, you will have three pairs of values to compare.
+You will compare the values generated for each of the new temperature variables using the operators in the table below to the original set of temperature values. Thus, you will have three pairs of values to compare.
 
 | Operator | Name | Example |
 |:---|:---|:---|
@@ -49,15 +49,15 @@ For example, here is a table that provides some of the logic I might use for my 
 
 | Comparison | Result | Text |
 |:---:|:---:|:---|
-| celsius > celsius | Original value is larger | "The original Celsius value of {value} is larger than the new value of {value}." |
-| Celsius < celsius | New value is larger | "The original Celsius value of {value} is smaller than the new value of {value}." |
-| celsius == celsius | Both are equal | "The original Celsius value of {value} equals the new value of {value}." |
-| fahrenheit >= fahrenheit | Original value is larger | "The original Fahrenheit value of {value} is greater than or equal to the new value of {value}." |
-| fahrenheit < fahrenheit | New value is larger | "The original Fahrenheit value of {value} is smaller than the new value of {value}." |
-| fahrenheit == fahrenheit | Both are equal | "The original Fahrenheit value of {value} is equal to {value}." |
-| kelvin <= kelvin | Original value is larger | "The original Kelvin value of {value} is less than or equal to the new value of {value}." |
-| kelvin < kelvin | New value is larger | "The original Kelvin value of {value} is smaller than the new value of {value}." |
-| kelvin != kelvin | Not equal | "The original Kelvin value of {value} is not equal to the new value of {value}." |
+| celsius > celsius_two | Original value is larger | "The original Celsius value of {value} is larger than the new value of {value}." |
+| celsius < celsius_two | New value is larger | "The original Celsius value of {value} is smaller than the new value of {value}." |
+| celsius == celsius_two | Both are equal | "The original Celsius value of {value} equals the new value of {value}." |
+| fahrenheit >= fahrenheit_two | Original value is larger | "The original Fahrenheit value of {value} is greater than or equal to the new value of {value}." |
+| fahrenheit < fahrenheit_two | New value is larger | "The original Fahrenheit value of {value} is smaller than the new value of {value}." |
+| fahrenheit == fahrenheit_two | Both are equal | "The original Fahrenheit value of {value} is equal to {value}." |
+| kelvin <= kelvin_two | Original value is larger | "The original Kelvin value of {value} is less than or equal to the new value of {value}." |
+| kelvin < kelvin_two | New value is larger | "The original Kelvin value of {value} is smaller than the new value of {value}." |
+| kelvin != kelvin_two | Not equal | "The original Kelvin value of {value} is not equal to the new value of {value}." |
 
 For example, if I type `-40` for my first value of celsius and then type in `0` for my second value, the following will output:
 
@@ -95,9 +95,11 @@ The original Kelvin value of 353.15 is not equal to the new value of 263.15.
 
 ## Logical Operators
 
-Let's extend your program one more time. We are going to use the logical operators `and` and `or`. You will use one of your Celsius comparisons and one of your Fahrenheit comparisons with the `and` logical operator to evalute both and output the results to the console. If both are true, output, "Python speaks the truth!" If it is not, ouput, "Python lies." Prior to your comparison, please print to the screen what your comparison is.
+Let's extend your program one more time. We are going to use the logical operators `and` and `or`. 
 
-Using one of your Celsius comparisons and one of your kelvin comparisons from above, use the `or` logical operator. Provide the same output. Prior to your comparison, please print to the screen what your comparison is.
+You will use one of your Celsius comparisons and one of your Fahrenheit comparisons with the `and` logical operator to evalute both and output the results. If both are true, output, "Python speaks the truth!" If it is not, ouput, "Python lies." Prior to your comparison, please print to the screen what your comparison is.
+
+Using one of your Celsius comparisons and one of your Kelvin comparisons from above, use the `or` logical operator. Provide the same output. Prior to your comparison, please print to the screen what your comparison is.
 
 Here is an example of my output:
 

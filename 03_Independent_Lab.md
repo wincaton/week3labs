@@ -3,9 +3,9 @@
 In this assignment you will create a Python notebook showcasing the concepts you learned about in the tutorial.
 
 
-## Self-Service Kiosk Logic Logic
+## Self-Service Kiosk Logic
 
-In this assignment you will build logic for a self-service kiosk. While the logic for an actual kiosk machine is a little more complex than what you will create, in essence, your program will capture the foundational aspects. This includes product selection, quantity, pricing, and payment.
+In this assignment you will build logic for a self-service kiosk. While the logic for an actual kiosk machine is a little more complex than what you will create, in essence, your program will capture the foundational aspects. This includes product selection, quantity, pricing, and payment. You can set up your kiosk to enable purchase of any type of product. The examples provided below are for a kiosk that sells day tickets and season passes for a ski resort. 
 
 Assume the following aspects about your kiosk:
 
@@ -51,7 +51,7 @@ What would you like to purchase?
 How many would you like to purchase?
 3
 
-You want 3 of Single Day Ticket - Specific Date.
+You want 3 of Single Day Ticket - Weekday.
 
 The current total for your order is $150.00
 ```
@@ -59,7 +59,7 @@ The current total for your order is $150.00
 Continuation of kiosk order. Customer selects additional prodcuts:
 
 ```
-You want 3 of Single Day Ticket - Specific Date.
+You want 3 of Single Day Ticket - Weekday.
 
 The current total for your order is $150.00
 
